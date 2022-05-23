@@ -1,5 +1,5 @@
 ################
-# Nombre - @usuario_github
+# Ezequiel Renolfi - @RnEzequiel
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
