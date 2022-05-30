@@ -12,7 +12,7 @@ from ejercicio2 import signo
 def division_lenta(dividendo, divisor):
     """
     Recibe dos valores como int y devuelve el cociente y resto de su division como tupla
-    de dos valores int. En caso de que el divisor sea 0, devuelve ambos valores como 0.
+    de dos valores int. En caso de que el divisor sea 0, devuelve ambos valores como None.
     """
     cociente = 0
     resto = 0
@@ -25,6 +25,9 @@ def division_lenta(dividendo, divisor):
             dividendo = dividendo - divisor
         cociente = cociente * signo_division
         resto = dividendo
+    else:
+        cociente= None
+        resto = None
     return cociente, resto
 
 

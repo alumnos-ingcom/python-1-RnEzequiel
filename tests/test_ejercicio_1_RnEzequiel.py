@@ -1,3 +1,8 @@
+################
+# Ezequiel Renolfi - @RnEzequiel
+# UNRN Andina - Introducción a la Ingenieria en Computación
+################
+
 """
 Pruebas ejercicio 1.
 """
