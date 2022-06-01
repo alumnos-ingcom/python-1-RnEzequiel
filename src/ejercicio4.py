@@ -7,7 +7,10 @@
 4. Suma lenta
 """
 
-from ejercicio2 import signo
+try:
+    from ejercicio2 import signo
+except ImportError:
+    from src.ejercicio2 import signo
 
 def suma_lenta(numero, otro_numero):
     """

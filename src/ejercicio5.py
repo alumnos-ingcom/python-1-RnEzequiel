@@ -7,7 +7,10 @@
 5. Divisiones
 """
 
-from ejercicio2 import signo
+try:
+    from ejercicio2 import signo
+except ImportError:
+    from src.ejercicio2 import signo
 
 def division_lenta(dividendo, divisor):
     """
