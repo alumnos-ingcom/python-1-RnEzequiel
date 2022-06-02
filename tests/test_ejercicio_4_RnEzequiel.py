@@ -54,7 +54,7 @@ def test_suma_lenta_cero_izq():
     assert resultado > 0
     assert resultado == 5
 
-def test_suma_lenta_negativo():
+def test_suma_lenta_cero_der():
     """
     Prueba la suma entre un primer valor cualquiera y un segundo igual a 0.
     """
